@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Fırat Atalay's portfolio website showcasing web development skills and projects"
+    />
+    <meta name="author" content="Fırat Atalay" />
+    <title>Fırat Atalay - Web Developer Portfolio</title>
+
+    <!-- Favicon links -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="site.webmanifest" />
+
+    <!-- Preload CSS -->
+    <link
+      rel="preload"
+      href="css/bootstrap.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
+      href="css/unicons.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
+      href="css/owl.carousel.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
+      href="css/owl.theme.default.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+
+    <!-- Fallback for non-JS users -->
+    <noscript>
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" href="css/unicons.css" />
+      <link rel="stylesheet" href="css/owl.carousel.min.css" />
+      <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    </noscript>
+
+    <!-- Font Awesome Kit (Deferred) -->
+    <script
+      src="https://kit.fontawesome.com/35deec5c2c.js"
+      defer
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <i class="uil uil-user"></i> Fırat
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a href="#about" class="nav-link"
+                ><span data-hover="About">About</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#certifications" class="nav-link"
+                ><span data-hover="Certifications">Certifications</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#resume" class="nav-link"
+                ><span data-hover="Resume">Resume</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link"
+                ><span data-hover="Contact">Contact</span></a
+              >
+            </li>
+          </ul>
+
+          <!-- Color Mode Toggle -->
+          <div class="navbar-nav ml-lg-auto">
+            <div class="ml-lg-4">
+              <div
+                class="color-mode d-lg-flex justify-content-center align-items-center"
+              >
+                <i class="color-mode-icon"></i>
+                <span class="color-mode-text">Color mode</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section
+      class="about full-screen d-lg-flex justify-content-center align-items-center"
+      id="about"
+    >
+      <div class="container">
+        <div class="row">
+          <!-- Text Column -->
+          <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+            <div class="about-text">
+              <small class="small-text mt-0 p-0">
+                Welcome to
+                <span class="mobile-block">my Portfolio Website!</span>
+              </small>
+              <h1 class="animated animated-text">
+                <span class="mr-2">Hello, I'm</span>
+                <div class="animated-info mt-0 pt-0">
+                  <span class="animated-item">Fırat&nbsp;Atalay</span>
+                  <span class="animated-item">Web Developer</span>
+                  <span class="animated-item">Student</span>
+                </div>
+              </h1>
+
+              <p>
+                I have a deep interest in how computers, software, and the web
+                work. This curiosity led me to begin my coding journey. I
+                specialize in building scalable and maintainable web
+                applications using technologies like JavaScript, React, and
+                Node.js, with a strong focus on improving user experience and
+                interfaces.
+              </p>
+
+              <!-- Button Group -->
+              <div class="custom-btn-group mt-4">
+                <a
+                  href="./assets/firatatalay.pdf"
+                  download="Fırat_Atalay_Resume.pdf"
+                  class="btn mr-lg-2 custom-btn"
+                >
+                  <i class="uil uil-file-alt"></i> Download Resume
+                </a>
+                <a
+                  href="#contact"
+                  class="btn custom-btn custom-btn-bg custom-btn-link"
+                >
+                  Contact Me
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image Column -->
+          <div class="col-lg-5 col-md-12 col-12">
+            <div class="about-image svg">
+              <img
+                src="images/undraw/undraw_software_engineer_lvl5.svg"
+                class="img-fluid"
+                alt="Fırat Atalay - Web Developer Illustration"
+                width="500"
+                height="400"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="project py-5" id="certifications">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-11 text-center mx-auto col-12">
+            <div class="col-lg-8 mx-auto">
+              <h2>My Certifications</h2>
+              <br />
+              <br />
+            </div>
+
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="certifications-info">
+                  <img
+                    src="images/certifications/advanced_css.jpg"
+                    class="img-fluid pl-5 pr-5"
+                    alt="Advanced CSS certification"
+                    width="400"
+                    height="300"
+                    loading="lazy"
+                  />
+                  <h3 class="title mt-2">Advanced CSS</h3>
+                  <p class="description pl-1 pr-1 ml-4" style="width: 93%">
+                    Completed workshop on "Advanced CSS" focused on modern
+                    design techniques.
+                  </p>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="certifications-info">
+                  <img
+                    src="images/certifications/html_css.jpg"
+                    class="img-fluid pl-5 pr-5"
+                    alt="HTML and CSS certification"
+                    width="400"
+                    height="300"
+                    loading="lazy"
+                  />
+                  <h3 class="title mt-2">HTML and CSS</h3>
+                  <p class="description pl-1 pr-1 ml-4" style="width: 93%">
+                    Completed comprehensive course on "HTML and CSS"
+                    fundamentals.
+                  </p>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="certifications-info">
+                  <img
+                    src="images/certifications/javascript.jpg"
+                    class="img-fluid pl-5 pr-5"
+                    alt="JavaScript certification"
+                    width="400"
+                    height="300"
+                    loading="lazy"
+                  />
+                  <h3 class="title mt-2">JavaScript</h3>
+                  <p class="description pl-1 pr-1 ml-4" style="width: 93%">
+                    Completed workshop on "JavaScript Basics" enhancing
+                    scripting skills.
+                  </p>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="certifications-info">
+                  <img
+                    src="images/certifications/node_js.jpg"
+                    class="img-fluid pl-5 pr-5"
+                    alt="Node.js certification"
+                    width="400"
+                    height="300"
+                    loading="lazy"
+                  />
+                  <h3 class="title mt-2">Node.js</h3>
+                  <p class="description pl-1 pr-1 ml-4" style="width: 93%">
+                    Completed workshop on "Node.js" covering server-side
+                    development.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section
+      class="resume py-5 d-lg-flex justify-content-center align-items-center"
+      id="resume"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <h2 class="mb-4">Experiences</h2>
+
+            <div class="timeline">
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>Dec 2024</span>
+                </div>
+                <div class="timeline-info">
+                  <h3>
+                    <span>Frontend Technology Expert and Writer</span
+                    ><br /><small>Stackademic</small>
+                  </h3>
+                  <p>
+                    Writing educational articles on JavaScript and React,
+                    creating in-depth content on modern frontend technologies,
+                    and engaging with the developer community through tutorials
+                    and code examples.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>Dec 2020</span>
+                </div>
+                <div class="timeline-info">
+                  <h3><span>Freelance Frontend Developer</span></h3>
+                  <p>
+                    Developed user-friendly web applications using modern
+                    technologies, designed responsive user interfaces, ensured
+                    data management and security through RESTful APIs, and
+                    curated a portfolio showcasing impactful projects.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>2023</span>
+                </div>
+                <div class="timeline-info">
+                  <h3>
+                    <span>Programming Instructor</span><br /><small
+                      >Smart Computer Institute</small
+                    >
+                  </h3>
+                  <p>
+                    Taught essential programming languages like C, C++, and
+                    JavaScript using interactive methods to ensure effective
+                    learning and application of concepts.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>2021</span>
+                </div>
+                <div class="timeline-info">
+                  <h3>
+                    <span>Computer Instructor</span><br /><small
+                      >Center for Information Technology (CIT)</small
+                    >
+                  </h3>
+                  <p>
+                    Taught foundational computer skills through a hands-on,
+                    interactive approach, enhancing students' problem-solving
+                    abilities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-12">
+            <h2 class="mb-4 mobile-mt-2">Education</h2>
+            <div class="timeline">
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>Sep 2021</span>
+                </div>
+                <div class="timeline-info">
+                  <h3>
+                    <span>B.Sc. in Computer Engineering</span><br /><small
+                      >Recep Tayyip Erdogan University, Rize, Turkey</small
+                    >
+                  </h3>
+                  <p>
+                    Focused on programming, data structures, algorithms, and
+                    software development, complemented by hands-on projects in
+                    web and mobile development.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>2019</span>
+                </div>
+                <div class="timeline-info">
+                  <h3>
+                    <span>High School Certificate</span><br /><small
+                      >English Boarding School</small
+                    >
+                  </h3>
+                  <p></p>
+                </div>
+              </div>
+
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>2017</span>
+                </div>
+                <div class="timeline-info">
+                  <h3>
+                    <span>School Leaving Certificate</span><br /><small
+                      >English Boarding School</small
+                    >
+                  </h3>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="Skills-wrapper">
+              <h2 class="mb-4 mobile-mt-2">Skills</h2>
+              <div class="container">
+                <div class="row" style="flex-wrap: nowrap">
+                  <div class="col-lg-6">
+                    <h4 class="mb-4">Technical Skills</h4>
+                    <div class="skill-items">
+                      <div
+                        class="timeline-yr mt-2"
+                        style="width: 10px; height: 10px"
+                      ></div>
+                      <div class="timeline-info ml-3 mb-2">
+                        <h5>
+                          <span
+                            >Languages:<small
+                              style="font-size: small; font-weight: lighter"
+                            >
+                              JavaScript, TypeScript, CSS, HTML, SQL, MATLAB,
+                              C#, Java, C/C++.</small
+                            ></span
+                          >
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="skill-items">
+                      <div
+                        class="timeline-yr mt-2"
+                        style="width: 10px; height: 10px"
+                      ></div>
+                      <div class="timeline-info ml-3 mb-2">
+                        <h5>
+                          <span
+                            >Technologies:<small
+                              style="font-size: small; font-weight: lighter"
+                            >
+                              React.js, Next.js, Remix, React-Native,
+                              Tailwind-CSS, Sass, Node.js, MySQL, MongoDB,
+                              Git.</small
+                            ></span
+                          >
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="skill-items">
+                      <div
+                        class="timeline-yr mt-2"
+                        style="width: 10px; height: 10px"
+                      ></div>
+                      <div class="timeline-info ml-3 mb-2">
+                        <h5>
+                          <span
+                            >Methodologies:<small
+                              style="font-size: small; font-weight: lighter"
+                            >
+                              Agile, Scrum, OOP, Functional Programming, DevOps,
+                              CI/CD, TDD.</small
+                            ></span
+                          >
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <h4 class="mb-4">Soft Skills</h4>
+                    <div class="skill-items">
+                      <div
+                        class="timeline-yr mt-2"
+                        style="width: 10px; height: 10px"
+                      ></div>
+                      <div class="timeline-info ml-3 mb-2">
+                        <h5>
+                          <span style="font-size: small; font-style: oblique"
+                            >Ability to quickly adapt to new and evolving
+                            technologies.</span
+                          >
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="skill-items">
+                      <div
+                        class="timeline-yr mt-2"
+                        style="width: 10px; height: 10px"
+                      ></div>
+                      <div class="timeline-info ml-3 mb-2">
+                        <h5>
+                          <span style="font-size: small; font-style: oblique"
+                            >Excellent verbal and written communication.</span
+                          >
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="skill-items">
+                      <div
+                        class="timeline-yr mt-2"
+                        style="width: 10px; height: 10px"
+                      ></div>
+                      <div class="timeline-info ml-3 mb-2">
+                        <h5>
+                          <span style="font-size: small; font-style: oblique"
+                            >Time management.</span
+                          >
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 mr-lg-5 col-12">
+            <h2 class="mb-4">Get in Touch</h2>
+            <div
+              class="contact-info d-flex justify-content-between py-4 px-lg-5 flex-column"
+            >
+              <div class="contact-card-top d-flex justify-content-between">
+                <div class="d-flex align-items-center">
+                  <img
+                    class="rounded float-start"
+                    src="./images/frt.jpeg"
+                    height="80"
+                    alt="Profile image of Fırat Atalay"
+                    style="
+                      max-width: 80px;
+                      object-fit: cover;
+                      border-radius: 50%;
+                    "
+                    loading="lazy"
+                  />
+                  <h2
+                    class="ml-3 text-white"
+                    style="margin-left: 15px; width: min-content"
+                  >
+                    Fırat Atalay
+                  </h2>
+                </div>
+                <div class="social-links">
+                  <a
+                    href="https://www.github.com/mrfiratatalay"
+                    target="_blank"
+                    class="fa-brands fa-facebook mx-1"
+                    data-toggle="tooltip"
+                    title="Facebook"
+                  ></a>
+                  <a
+                    href="https://www.github.com/mrfiratatalay"
+                    target="_blank"
+                    class="fa-brands fa-instagram mx-1"
+                    data-toggle="tooltip"
+                    title="Instagram"
+                  ></a>
+                  <a
+                    href="https://www.github.com/mrfiratatalay"
+                    target="_blank"
+                    class="fa-brands fa-github mx-1"
+                    data-toggle="tooltip"
+                    title="GitHub"
+                  ></a>
+                </div>
+              </div>
+              <hr
+                class="border rounded border-dark border-2 opacity-50"
+                style="width: 100%"
+              />
+              <div class="contact-info-item mt-5">
+                <div class="d-flex align-items-start">
+                  <i
+                    class="fa-regular fa-envelope"
+                    style="height: 2em; font-size: 2.9em; color: #ad8b20"
+                  ></i>
+                  <div class="ml-3">
+                    <h5 class="m-0 text-white">Email</h5>
+                    <p class="m-0">
+                      <a href="mailto:firatatalay.cs@gmail.com"
+                        >firatatalay.cs@gmail.com</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-start mt-3">
+                  <i
+                    class="fa-solid fa-phone"
+                    style="height: 2em; font-size: 2.9em; color: #ad8b20"
+                  ></i>
+                  <div class="ml-3">
+                    <h5 class="m-0 text-white">Phone</h5>
+                    <p class="m-0">
+                      <a href="tel:+90552813780">+90552813780</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-start mt-3">
+                  <i
+                    class="fa-solid fa-location-dot"
+                    style="height: 2em; font-size: 2.9em; color: #ad8b20"
+                  ></i>
+                  <div class="ml-3">
+                    <h5 class="m-0 text-white">Location</h5>
+                    <p class="m-0">İstanbul, Turkey</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="contact-form">
+              <h2 class="mb-4">Interested in Working Together? Let's Talk!</h2>
+              <form id="contactForm">
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      name="name"
+                      placeholder="Your Name"
+                      id="name"
+                      style="
+                        margin-bottom: 10px;
+                        padding: 15px;
+                        border-radius: 5px;
+                        border: 1px solid #ccc;
+                      "
+                    />
+                  </div>
+                  <div class="col-lg-6 col-12">
+                    <input
+                      required
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Email"
+                      id="email"
+                      style="
+                        margin-bottom: 10px;
+                        padding: 15px;
+                        border-radius: 5px;
+                        border: 1px solid #ccc;
+                      "
+                    />
+                  </div>
+                  <div class="col-12">
+                    <textarea
+                      required
+                      name="message"
+                      rows="6"
+                      class="form-control"
+                      id="message"
+                      placeholder="Your Message"
+                      style="
+                        padding: 15px;
+                        border-radius: 5px;
+                        border: 1px solid #ccc;
+                        margin-bottom: 10px;
+                      "
+                    ></textarea>
+                  </div>
+                  <div class="ml-lg-auto col-lg-5 col-12">
+                    <input
+                      type="submit"
+                      class="form-control submit-btn"
+                      value="Send Message"
+                      style="
+                        background-color: #ad8b20;
+                        color: white;
+                        padding: 10px 0;
+                        border-radius: 5px;
+                        border: none;
+                      "
+                    />
+                  </div>
+                  <span id="submit-msg" class="p-1 rounded"></span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-12">
+            <p class="copyright-text text-center">
+              Copyright &copy; 2024 Fırat Atalay. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5CZP95N89G"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-5CZP95N89G");
+    </script>
+    <!-- Google tag (gtag.js) end -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+      contactFormMsgArea = document.getElementById("submit-msg");
+
+      function displayinContactFormMsgArea(msg, classname) {
+        contactFormMsgArea.style.display = "inline";
+        contactFormMsgArea.classList.add(classname);
+        contactFormMsgArea.innerHTML = msg;
+        setTimeout(() => {
+          contactFormMsgArea.style.display = "none";
+        }, 1000);
+      }
+
+      let form = document.getElementById("contactForm");
+      form.addEventListener("submit", submitform);
+      function submitform(e) {
+        e.preventDefault();
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var message = document.getElementById("message").value;
+
+        //saving data to apispreadsheets
+        fetch("https://api.apispreadsheets.com/data/4NADYyodriY6Z4Lh/", {
+          method: "POST",
+          body: JSON.stringify({
+            data: { Name: name, Email: email, Message: message },
+          }),
+        }).then((res) => {
+          if (res.status === 201) {
+            displayinContactFormMsgArea(
+              "✔️ Message sent successfully",
+              "bg-success"
+            );
+            //clearing the form
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("message").value = "";
+          } else {
+            displayinContactFormMsgArea(
+              "❌ Error occoured! Try again",
+              "bg-danger"
+            );
+          }
+        });
+
+        //attempt to send email
+        fetch("https://formsubmit.co/ajax/asaugat04@gmail.com", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({ Name: name, Email: email, Message: message }),
+        });
+      }
+    </script>
+  </body>
+</html>
